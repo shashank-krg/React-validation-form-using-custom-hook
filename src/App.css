@@ -1,0 +1,53 @@
+body {
+  padding-top: 50px;
+  background-image: url('F:/reacttut/registration/src/component/images/background.jpg');
+}
+
+.container {
+  max-width: 450px;;
+}
+
+.form-group {
+  margin-bottom: 1.4rem;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-group > label {
+   display: block;
+   font-weight: 700;
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+
+.heading{
+  font-size: 20px;
+  font-weight: bold ;
+  text-align: center;
+  text-decoration: underline;
+}
+.card{
+  padding-bottom: 18px;
+  width:600px;
+  margin: 0 auto;
+  float: center; 
+  margin-left: 310px;
+  
+}
+.labelheading{
+  font-weight: bold;
+  padding-inline-end: 65px;
+  padding-bottom: 12px;
+}
+.btn-outline-primary
+{
+  width:180px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 190px;
+    
+}
